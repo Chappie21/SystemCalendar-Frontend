@@ -1,0 +1,53 @@
+.p-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   /* background-image: url(https://media.giphy.com/media/hsPP47prxlRzZx9g5r/giphy.gif); */
+    background-image: url(https://media.giphy.com/media/xTiQywlOn0gKyz0l56/giphy.gif);
+    align-items: center;
+}
+
+.container-form-login{
+    width: 500px;
+    padding: 50px;
+    margin-top: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(209, 206, 206, 0.7);
+    border-radius: 15px;
+}
+
+#form-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-login input{
+    width: 300px;
+    height: 20px;
+    padding: 2%;
+    margin-top: 7%;
+    border: solid rgb(229, 232, 232) 2px;
+    border-radius: 10px;
+}
+
+#form-login button{
+    width: 200px;
+    height: 40px;
+    margin-top: 7%;
+    background-color:rgb(0, 97, 255);
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+}
+
+#form-login div{
+    margin-top: 7%;
+}

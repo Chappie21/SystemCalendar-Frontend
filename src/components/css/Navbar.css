@@ -1,0 +1,83 @@
+#Navbar{
+
+    height: 75px;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(212, 209, 209);
+    flex-wrap: wrap;
+
+}
+
+#Navbar img{
+
+    width: 55px;
+    height: 55px;
+    padding: 0, 80px;
+
+}
+
+#Navbar button{
+    width: 200px;
+    height: 40px;
+    background-color:rgb(0, 97, 255);
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    margin-right: 50px;
+}
+
+.user{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    flex-direction: row;
+}
+
+.user label{
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+.NameUser{
+
+    color: blue;
+    font-size: 25px;
+    padding: 0, 0px;
+    font-weight: bold;
+
+}
+
+.items{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.actividad{
+
+    width: 200px;
+    height: 50px;
+    color: white;
+    border: solid rgb(86, 162, 248) 2px;
+    background-color: rgb(86, 162, 248);
+    border-radius: 5px;
+    align-items: center;
+
+}
+
+.mes{
+    width: 200px;
+    height: 50px;
+    border: solid rgb(86, 162, 248) 2px;
+    border-radius: 5px;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+}

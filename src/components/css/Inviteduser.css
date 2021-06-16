@@ -1,0 +1,27 @@
+#form-invited{
+    display: flex;
+    margin-top: 82%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+}
+
+#form-invited input{
+    height: 30px;
+    padding: 2%;
+    margin-top: 7%;
+    border: solid rgb(229, 232, 232) 2px;
+    border-radius: 10px;
+}
+
+#form-invited button{
+    height: 40px;
+    margin-top: 7%;
+    background-color:rgb(0, 97, 255);
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+}
