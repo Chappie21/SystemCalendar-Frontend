@@ -5,7 +5,6 @@ import './css/Navbar.css';
 
 const Navbar = (props) => {
 
-
     return (
         <Fragment>
             <div>
@@ -13,7 +12,7 @@ const Navbar = (props) => {
                     props.type === 1
                         ? (
                         <div id='Navbar'>
-                            <div className = 'user'>
+                            <div className = 'user' onClick = {() => props.history.push('/userinfo')}>
                                 <img src={props.img} />
                                 <label className='NameUser'>{props.UserName}</label>
                             </div>

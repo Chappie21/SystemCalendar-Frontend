@@ -50,24 +50,28 @@ const Login = () => {
                 let form = {
                     exito: response.status === 200 ? true : false,
                     msg: response.message,
-                    UserName: response.UserName
+                    UserName: response.UserName,
+                    CorreoUser: response.CorreoUser
                 }
 
                 setDatos({
-                    ...datos,
-                    ['ResultServer']: form,
-                });
+                    UserName: '',
+                    Clave: '',
+                    ResultServer: form,
+                })
 
                 // actualizar estado global
                 setGlobalState(
                     {
                         ...globalState,
                         Login: form.exito,
-                        UserName: form.UserName
+                        UserName: form.UserName,
+                        UserCorreo: form.CorreoUser
                     }
                 )
-                    
+                
             });
+
     }
 
     return (

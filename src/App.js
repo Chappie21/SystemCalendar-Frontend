@@ -7,6 +7,7 @@ import Register from './pages/Register';
 import Sesion from './pages/Sesion';
 import Createcalendar from './pages/Createcalendar';
 import Editcalendar from './pages/Editcalendar'
+import Userinfo from './pages/UserInfo'
 
 // REACT ROUTER, SE ENCARGAR DE RENDERIZAR LAS PAGINAS (O GRANDES COMPONENTES) DE LA APP
 // ESTO POR MEDIO DE RUTAS
@@ -21,6 +22,7 @@ const App = () => {
                 <Route exact path='/sesion' component={Sesion} />
                 <Route exact path='/createcalendar' component={Createcalendar} />
                 <Route exact path='/editcalendar' component={Editcalendar} />
+                <Route exact path='/userinfo' component={Userinfo} />
             </Router>
         </Statecontext>
     );

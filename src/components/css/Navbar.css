@@ -36,6 +36,7 @@
     flex-wrap: wrap;
     margin-left: 10px;
     flex-direction: row;
+    cursor: pointer;
 }
 
 .user label{
@@ -49,6 +50,13 @@
     font-size: 25px;
     padding: 0, 0px;
     font-weight: bold;
+    cursor: pointer;
+
+}
+
+.NameUser:hover{
+
+    color:rgb(0, 183, 255)
 
 }
 
